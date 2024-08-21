@@ -1,55 +1,41 @@
-/* styles.css */
-
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    background-image: url('weatherpic.png');
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #333;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
-.weather-app {
+.weather-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    max-width: 400px;
+    width: 100%;
 }
 
-.location h1 {
-    margin: 0;
+.location {
     font-size: 2.5em;
-    color: #333;
-}
-
-.location p {
-    margin: 5px 0 20px;
-    font-size: 1.2em;
-    color: #777;
-}
-
-.weather-info {
-    margin-top: 20px;
-}
-
-.weather-icon {
-    width: 80px;
-    margin-bottom: 15px;
-}
-
-.weather-info h2 {
     margin: 0;
-    font-size: 3em;
-    color: #333;
 }
 
-.weather-info p {
-    margin: 10px 0 0;
-    font-size: 1.5em;
-    color: #555;
+.temperature {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.icon {
+    margin-top: 20px;
 }
