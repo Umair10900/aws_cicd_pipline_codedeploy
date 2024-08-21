@@ -3,20 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>Real-Time Weather App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="weather-app">
-        <div class="location">
-            <h1>San Francisco</h1>
-            <p>Wednesday, August 21</p>
-        </div>
-        <div class="weather-info">
-            <img src="weather-icon.png" alt="Weather Icon" class="weather-icon">
-            <h2>75°F</h2>
-            <p>Partly Cloudy</p>
-        </div>
+    <div class="weather-container">
+        <h1 class="location"></h1>
+        <h2 class="temperature"></h2>
+        <p class="description"></p>
+        <div class="icon"></div>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
